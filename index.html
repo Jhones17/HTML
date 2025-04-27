@@ -38,7 +38,7 @@
                 color: rgba(255, 136, 0, 0.555);
             }
             p{
-                color: rgba(255, 136, 0, 0.356)
+               
             }
             button{
                 height: 30px;
@@ -67,19 +67,67 @@
             section{
                 color:rgba(255, 136, 0, 0.801);
             }
+            .background{
+                position: fixed;
+                right: 0;
+                bottom: 0;
+                height: 100vh;
+                width: 100vw;
+                object-fit: cover;
+                z-index: -100;
+            }
+            .introdução{
+                display: flex ;
+                border-radius: 1000px;
+                background-color: rgba(255, 255, 255, 0.459);
+
+            }
+            .conteudo h2{
+                color: blue;
+            }
+            .aviso{
+                color: blue;
+            display: flex;
+            flex-direction: column;
+            }
+            .meta{
+                
+            }
+
+            .texto{
+            
+            }
+            .formtação{
+
+            }
+            .exercisio{
+
+            }
+            .elementos
+            h1{
+                red
+            }
+            
         </style>
     </head>
     <body>
-            <h1>o que eu verei dentro desse site?</h1> <br>
-                <h2>- apenas conteudo focado em HTML - </h2> <br>
-                    <h2>- tudo feito por um iniciante - </h2> <br>
-                        <h2>- feiura - </h2> <br>
-            <p class="aviso">(não me responsabilizo por erros de portugues, quero ser programador, não professor de portugues )</p> <br>
+        <div class="container">
+        <div class="introdução">
+            <video autoplay loop muted class="background"> <source src="mp4/backgroud.mp4" type="video/mp4"></video>
+            <div class="conteudo"></div>
+            <h1 class="texto">o que eu verei dentro desse site?</h1> <br>
+            <div class="avisos">
+                <h2 class="test">- apenas conteudo focado em HTML - </h2>
+                    <h2>- tudo feito por um iniciante - </h2> 
+                        <h2>- feiura - </h2> 
+            </div>
+            <p class="texto">(não me responsabilizo por erros de portugues, quero ser programador, não professor de portugues )</p> <br>
             <a href="/CSS.pag/index.html"><button class="css"> CSS</button></a> <a href="/javascript.pag/index.html"><button class="javascript" >JACASCRIPT</button></a>
             <br>
-            <hr>
             <br>
+        </div>
         <!--^introdução^-->
+        <div class="meta">
     <section>
         <h2> Meta Tags, Cabeçalho e Parágrafo</h2>
         <h3>tags, o que são?</h3>
@@ -151,10 +199,12 @@
         <p>os P, são paragrafos, ele são usado para marca o conteudo do site, simples e facil de usar
         </p>
     </section>
+        </div>
         <!--^Meta Tags, Cabeçalho e Parágrafo^-->
+        <div class="formtação">
     <section>
         <br>
-        <hr>
+       
         <br>
         <h2>Formatação de Texto</h2>
         <em><h3>B(o negrito) and stong</h3></em>
@@ -180,10 +230,11 @@
         <em><h3>mark</h3></em>
         <p>essa tag serve parar marca algo no texto, a prova e <mark><i><b><u>AMANHÃ</u></b></i></mark>, essa essa opção da para ser usado no CSS</p>
     </section>
+        </div>
     <!--^Formatação de Texto^-->
+        <div class="exercisio">
     <section>
     <br>
-    <hr>
     <br>
     <h3>exercisio:</h3>
     <p>agora com seu conhecimento sobre Formataçãode texto, faça um texto, e aplique o conhecimento que você tem agora no texto
@@ -200,8 +251,10 @@
     que eu tenho, quero usufruir ao maximo</i>
     </p>
     </section>
+        </div>
     <!--^exersicio formtação de texto^-->
     <section>
+        <div class="elementos">
         <em><h2>Elementos de Citação</h2></em>
         <em><h3>abbr</h3></em>
         <p>abbr e uma tag na qual da você pode usar em abreviações, tipo <abbr title="Eu Gosto De Jogar Minecraft">EGDJM</abbr></p>
@@ -215,8 +268,8 @@
         <em><h3></h3></em>
         <em><h3></h3></em>
         <em><h3></h3></em>
-    </section>
+    </div>
+</section>
+        </div>
     <!--^Elementos de Citação^-->
     </html>
-
-    
