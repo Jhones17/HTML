@@ -1,226 +1,275 @@
-    <!DOCTYPE html>
-    <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="esse site foi feito para anotar e testar meus estuddos de HTML">
-        <meta name="keywords" content="HTML,iniciante,como aprender html, linguagem de marcação">
-        <meta name="author" content="jhon vitor medeiros">
-        <title>HTML</title>
-        <style>
-            *{
-                margin: 0px;
-                padding: 5px;
-                box-sizing: border-box;
-            }
-            section{
-                text-align: center;
-                
-            }
-            h1{
-                color: rgb(255, 136, 0);
-                font-size: 75px;
-            }
-            .aviso{
-             color:red;
-            }
-            h2{
-                color: rgba(255, 136, 0, 0.801);
-                font-size: 30px;
-
-            }
-            h3{
-                color: rgba(255, 136, 0, 0.596);
-                font-size: 20px;
-            }
-            h4{
-                color: rgba(255, 136, 0, 0.555);
-            }
-            p{
-                color: rgba(255, 136, 0, 0.356)
-            }
-            button{
-                height: 50px;
-                width: 100px;
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="esse site foi feito para anotar e testar meus estuddos de HTML">
+    <meta name="keywords" content="HTML,iniciante,como aprender html, linguagem de marcação">
+    <meta name="author" content="jhon vitor medeiros">
+    <title>HTML</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: black;
+            text-align: center;
             
-            }
-            body{
-                background-color: black;
-            }
-            .CSS button{
-           background-color: blue;  
-           color: rgb(255, 255, 255);                                                                     
-            }
-            .javascript{
-                background-color: yellow;
-                color: black;
-            }
-            section{
-                color:rgba(255, 136, 0, 0.801);
-            }
-        </style>
-    </head>
-    <body>
-            <h1>o que eu verei dentro desse site?.</h1> <br>
-                <h2>- apenas conteudo focado em HTML - </h2> <br>
-                    <h2>- tudo feito por um iniciante - </h2> <br>
-                        <h2>- feiura - </h2> <br>
-            <p class="aviso">(não me responsabilizo por erros de portugues, quero ser programador, não professor de portugues )</p> <br>
-            <a href="/CSS.pag/index.html"><button class="css"> CSS</button></a> <a href="/javascript.pag/index.html"><button class="javascript" >JACASCRIPT</button></a>
-            <br>
-            <hr>
-            <br>
-        <!--^introdução^-->
-        <div class="meta">
-    <section>
-        <h2> Meta Tags, Cabeçalho e Parágrafo</h2>
-        <h3>tags, o que são?</h3>
-        <p>tags são isso: >, dentro dela, vocẽ vai ditar uma marcação dentro do HTML</p>
-        <hr>
-        <h3>!DOCTYPE, o inicio:)</h3>
-        <p>quandos começamos a codar em HTML, nois começamos primeiro por esse carinha, o salvador de gerações pela
-        sua produtividade, eficacia e simplicidade, toda vez que fomos codar em HTML, sempre começamos por !DOCTYPE
-        ou só pelo !.</p>
-        <hr>
-        <h3>Porque?</h3>
-        <p>porque esse carinha, e a versão mais atua do HTML, e de quebra, ele ja monta uma estrutura de site
-            para você usar, saca só:
-        </p>
-        <img class="img" src="/img/!.png" alt="e a foto da estrutura do site, em ordem está: DOCTYPE,html lang, head, meta, title e o body"   height="300">
-        <p>você usando apenas !, colocou isso tudo de comando, daora né?</p>
-        <hr>
-        <h3>Mais o que são tudo isso?</h3>
-        <em><h4>!DOCTYPE:</h4></em>
-        <p>serve para ditar a versão 5 do HTML, com ela, você ja vem com uma estrutura montada certinha para você usar</p>
-        <hr>
-        <em><h4>HTML lang="":</h4></em>
-        <p>O HTML serve para ditar que tudo que estiver dentro do HTML, esta em html, ja o <em>lang</em>
-        serve para ditar o idioma do site, para deixar em portugues, basta colocar<em>PT-BR</em></p>
-        <hr>
-        <em><h4>HEAD:</h4></em>
-        <p>essa tag diz que é a cabeça do site, ou seja, tudo o que o usuarios não vai ver ou mexer, mais vai mudar o site, CSS ou os metas dados</p> 
-        <hr>
-        <em><h4>Meta</h4></em>
-        <p>as metas tags são metadados, aonde somente os navegadores leiram, as metas tags fica localizada
-            dentro do <em>HEAD</em>, os usuarios não vem os metadados, somente os navegadores
-        </p>
-        <hr>
-        <h3>As metas tags mais <em>USADAS</em></h3>
-        <img class="img" src="/img/METAS.png" alt="tag de metas mais USADAS, só tem 3 novas e são, description/keywords/author" height="200">
-        <em><h4>CHARSET UTF-8:</h4></em>
-        <p>ela ja vem com !DOCTYPE, ela deixa que não aconteça erros no codigo caso tu coloque
-        acentos ou outros caracteres, exemplo:</p> <br>
-        <img class="img" src="/img/EXEMPLO.png" alt="" height="300">
-        <hr>
-        <em><h4>VIEWPORT:</h4></em>
-        <p>ela ja vem com !DOCTYPE, essa meta tag deixa com que o site seja
-        adpetado para qualquer tela ou dispositivo, isso não quer dizer que você
-        não tera que adpetar alguma coisa, quando ele não é colocado, geralmente o site
-        abre no modo computador, mesmo você usando outro dispositivo ou estando no celular.</p>
-        <hr>
-        <em><h4>DESCRIPTION:</h4></em>
-        <p>quando seu site for compartilhado para outras pessoas, essa tag vai ser ativada para gerar uma descrição do seu site "melhores bolos da região",
-        exemplo: </p><br>
-        <img class="img" src="/img/description.jpg" alt="e uma foto do link, mostrando a biografia do site" height="300">
-        <hr>
-        <em><h4>KEYWORDS:</h4></em>
-        <p>e uma metatag usada para facilitar a busca do seu site para outros usuarios, quando forem pesquisar nos navegadores, seu site pode ganhar um 
-        ranking maior quando o google foi analisar e ler seu site
-        </p>
-        <hr>
-        <em><h4>AUTHOR:</h4></em>
-        <p>essa tag serve para basicamente dizer que fez esse site, e uma assinatura digital
-        </p>
-        <hr>
-        <em>
-            <h4>CONTENT:</h4>
-        </em>
-        <p>o content e basicament o conteudo daquela meta tag, então toda vez que você for codar aquelas metas, você precisa definir o conteudo(o que vai mostrar) da meta tag
-        </p>
-        <hr>
-        <em>
-            <h4>H1 A H6:</h4>
-        </em>
-        <p>Os H nas tags, dentro do body, o corpo do site, serve basicamente para ditar titulos no site, de h1 para maior titulo, do h6 para o menor,e uma regrinha, todo site
-            só pode ter 1 h1, se tiver mais de 1, da B.O:
-        </p>
+        }
+        h1{
+            color: rgb(255, 136, 0);
+            font-size: 75px;
+        }
+        .aviso{
+         color:red;
+        }
+        h2{
+            color: rgba(255, 136, 0, 0.801);
+            font-size: 30px;
+
+        }
+        h3{
+            color: rgba(255, 136, 0, 0.596);
+            font-size: 20px;
+        }
+        h4{
+            color: rgba(255, 136, 0, 0.555);
+        }
+        p{
+           
+        }
+        button{
+            height: 30px;
+            width: 100px;
+        }
+        .css{
+            background-color: rgba(0, 0, 255, 0.637);
+            font-size: 14px;
+        }
+        .javascript{
+            background-color: rgba(255, 255, 0, 0.603);
+            font-size: 14px;
+        }
+        img{
+            height: 200px;
+        }
+        .imgp{
+            height: 150px;
+        }
+        abbr{
+            color:rgba(255, 136, 0, 0.801);
+        }
+        i{
+            color:rgba(255, 136, 0, 0.801);
+        }
+        section{
+            color:rgba(255, 136, 0, 0.801);
+        }
+        .background{
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            height: 100vh;
+            width: 100vw;
+            object-fit: cover;
+            z-index: -100;
+        }
+        .introdução{
+            display: flex ;
+            border-radius: 1000px;
+            background-color: rgba(255, 255, 255, 0.459);
+
+        }
+        .conteudo h2{
+            color: blue;
+        }
+        .aviso{
+            color: blue;
+        display: flex;
+        flex-direction: column;
+        }
+        .meta{
+            
+        }
+
+        .texto{
+        
+        }
+        .formtação{
+
+        }
+        .exercisio{
+
+        }
+        .elementos
+        h1{
+            red
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="introdução">
+        <video autoplay loop muted class="background"> <source src="mp4/backgroud.mp4" type="video/mp4"></video>
+        <div class="conteudo"></div>
+        <h1 class="texto">o que eu verei dentro desse site?</h1> <br>
+        <div class="avisos">
+            <h2 class="test">- apenas conteudo focado em HTML - </h2>
+                <h2>- tudo feito por um iniciante - </h2> 
+                    <h2>- feiura - </h2> 
+        </div>
+        <p class="texto">(não me responsabilizo por erros de portugues, quero ser programador, não professor de portugues )</p> <br>
+        <a href="/CSS.pag/index.html"><button class="css"> CSS</button></a> <a href="/javascript.pag/index.html"><button class="javascript" >JACASCRIPT</button></a>
         <br>
         <br>
-        <img class="img" src="/img/h1exemplo.png" height="300" alt="as linhas de codigo que usei para fazer os titulos">
-        <br>
-        <img class="img" src="/img/h1.png" height="300" alt="foto dos titulos, do maior para menor">
-        <br>
-        <em>
-            <hr>
-            <h4>Os P:</h4>
-        </em>
-        <p>os P, são paragrafos, ele são usado para marca o conteudo do site, simples e facil de usar
-        </p>
-    </section>
-        <!--^Meta Tags, Cabeçalho e Parágrafo^-->
-    <section>
-        <br>
-        <hr>
-        <br>
-        <h2>Formatação de Texto</h2>
-        <em><h3>B(o negrito) and stong</h3></em>
-        <p>essas duas tags, deixam as palavras em negrito, mas a diferença entre elas, e que a tag STRONG, da importancia para letra palavra ou frase, deixa ela com grau de importancia maior</p>
-        <em><h3>Hr</h3></em>
-        <p>essa tag cria uma linha divisoria entre a pagina, assim você pode separar o conteudo</p>
-        <em><h3>br</h3></em>
-        <p>essa tag e usada para dar espaçamento, desde imagens,videos ou textos, tipo <br><br><br><br> assim :) <br>mas e recomendado
-        que use pouco essa tag, pois esse espaçamento podemosa aplicar com <abbr title="Estilização De Texto">CSS</abbr></p>
-        <em><h3>I(italico)</h3></em>
-        <p>a tag i, serve para deixar o que esta dentro dela, <i>em Italico</i></p>
-        <em><h3>U</h3></em>
-        <p>essa tag deixa o texto <u><i>SUBLINHADO</i></u>, com essa linha em baixo dela</p>
-        <em><h3>small</h3></em>
-        <p>essa tag serve para deixar o texto pequeno, <small>tudo que estiver dentro dele, ficara pequeno</small>, esse small não e aconselhado ser usado porque podemos
-        fazer essa diminuiçaõ de texto atráves pelo CSS</p>
-        <em><h3>del(texto excluido)</h3></em>
-        <p>esse del, serve para riscar um texto, na qual da a interpretação de <del>deletado</del>, existe a tag strike, que faz a mesma coisa, só que ela futuramente
-        as maquinas não vãp conseguir <strike>ler mais</strike></p>
-        <em><h3>sup and sub</h3></em>
-        <p>essa tag serve para deixar em superior o que está dentro dela, tipo um expoente de matematica, tipo: 2 <sup>10</sup>, eu matei ele <sup>(disse com tom de ironia)</sup>
-        e também temos o sub, que serve para deixar <sub>inferior</sub> o texto</p>
-        <em><h3>mark</h3></em>
-        <p>essa tag serve parar marca algo no texto, a prova e <mark><i><b><u>AMANHÃ</u></b></i></mark>, essa essa opção da para ser usado no CSS</p>
-    </section>
-    <!--^Formatação de Texto^-->
-    <section>
-    <br>
-    <hr>
-    <br>
-    <h3>exercisio:</h3>
-    <p>agora com seu conhecimento sobre Formataçãode texto, faça um texto, e aplique o conhecimento que você tem agora no texto
-        como se tiversse no wordpress, faça um texto de um tempa que você goste, e modifique ele com o que você sabe.
+    </div>
+    <!--^introdução^-->
+    <div class="meta">
+<section>
+    <h2> Meta Tags, Cabeçalho e Parágrafo</h2>
+    <h3>tags, o que são?</h3>
+    <p>tags são isso: >, dentro dela, vocẽ vai ditar uma marcação dentro do HTML</p>
+    <h3>!DOCTYPE, o inicio:)</h3>
+    <p>quandos começamos a codar em HTML, nois começamos primeiro por esse carinha, o salvador de gerações pela
+    sua produtividade, eficacia e simplicidade, toda vez que fomos codar em HTML, sempre começamos por !DOCTYPE
+    ou só pelo !.</p>
+    <h3>Porque?</h3>
+    <p>porque esse carinha, e a versão mais atua do HTML, e de quebra, ele ja monta uma estrutura de site
+        para você usar, saca só:
     </p>
-    <h3>IAs, meu interesse genuido pela criação</h3>
-    <p>se você me conheçe, sabe que eu tenho um interesse genuido e enorme pelas <abbr title="inteligencia artificial"><u><i>IAs</i></u></abbr>,
-    tipo, meu <i>principio</i> em estudar esse tema e trabalhar com isso, obviamente vem pela <u>estabilidade financeira</u><sup>(money)</sup>, mas ao mesmo tempo
-    imaginar criar algo que imite, imite mesmo, nem que seja inteligente de fato a inteligencia humana, me fascina, me deixa animado
-    e me motivo a me especializar, <i>ultimamente a raça humana</i>, esta tendo a capacidade de <i>"criar"</i> vida, estamos bricando de <i>"Deus"</i>,
-    e eu sei que o que eu for fazer, vai mudar o mundo de alguma forma, se uma coisa que eu quero, e deixar um <i>legado nessa terra</i>, e se
-    eu deixar algo que vai mudar a humanidade e impusionar a raça humano ao seu apice, que eu faça, e se salvar vidas, que eu faça
-    com mais vontade e empenho, <i>salvar vidar, avanço tecnologico, androides, protesses, o que da para se fazer nesse restinho de vida
-    que eu tenho, quero usufruir ao maximo</i>
+    <img src="/img/!.png" alt="e a foto da estrutura do site, em ordem está: DOCTYPE,html lang, head, meta, title e o body"   height="300">
+    <p>você usando apenas !, colocou isso tudo de comando, daora né?</p>
+    <h3>Mais o que são tudo isso?</h3>
+    <em><h4>!DOCTYPE:</h4></em>
+    <p>serve para ditar a versão 5 do HTML, com ela, você ja vem com uma estrutura montada certinha para você usar</p>
+    <em><h4>HTML lang="":</h4></em>
+    <p>O HTML serve para ditar que tudo que estiver dentro do HTML, esta em html, ja o <em>lang</em>
+    serve para ditar o idioma do site, para deixar em portugues, basta colocar<em>PT-BR</em></p>
+    <em><h4>HEAD:</h4></em>
+    <p>essa tag diz que é a cabeça do site, ou seja, tudo o que o usuarios não vai ver ou mexer, mais vai mudar o site, CSS ou os metas dados</p> 
+    <em><h4>Meta</h4></em>
+    <p>as metas tags são metadados, aonde somente os navegadores leiram, as metas tags fica localizada
+        dentro do <em>HEAD</em>, os usuarios não vem os metadados, somente os navegadores
     </p>
-    </section>
-    <!--^exersicio formtação de texto^-->
-    <section>
-        <em><h2>Elementos de Citação</h2></em>
-        <em><h3>abbr</h3></em>
-        <p>abbr e uma tag na qual da você pode usar em abreviações, tipo <abbr title="Eu Gosto De Jogar Minecraft">EGDJM</abbr></p>
-        <img  class="imgp"  src="/img/abbr.png" alt="imagem do codigo abbr, mostrando a abreviação">
-        <em><h3>address</h3></em>
-        <p>essa tag basicamente serve para ditar um endereço de um certo local/site, ele pode ser usado para qualquer endereço, não precisa ser endereço fisico
-           <address>rua leonel pereire, 123532, são paulo</address>
-        </p>
-        <em><h3>cite</h3></em>
-        <p></p>
-        <em><h3></h3></em>
-        <em><h3></h3></em>
-        <em><h3></h3></em>
-    </section>
-    <!--^Elementos de Citação^-->
-    </html>
+    <h3>As metas tags mais <em>USADAS</em></h3>
+    <img src="/img/METAS.png" alt="tag de metas mais USADAS, só tem 3 novas e são, description/keywords/author" height="200">
+    <em><h4>CHARSET UTF-8:</h4></em>
+    <p>ela ja vem com !DOCTYPE, ela deixa que não aconteça erros no codigo caso tu coloque
+    acentos ou outros caracteres, exemplo:</p> <br>
+    <img src="/img/EXEMPLO.png" alt="" height="300">
+    <em><h4>VIEWPORT:</h4></em>
+    <p>ela ja vem com !DOCTYPE, essa meta tag deixa com que o site seja
+    adpetado para qualquer tela ou dispositivo, isso não quer dizer que você
+    não tera que adpetar alguma coisa, quando ele não é colocado, geralmente o site
+    abre no modo computador, mesmo você usando outro dispositivo ou estando no celular.</p>
+    <em><h4>DESCRIPTION:</h4></em>
+    <p>quando seu site for compartilhado para outras pessoas, essa tag vai ser ativada para gerar uma descrição do seu site "melhores bolos da região",
+    exemplo: </p><br>
+    <img src="/img/description.jpg" alt="e uma foto do link, mostrando a biografia do site" height="300">
+    <em><h4>KEYWORDS:</h4></em>
+    <p>e uma metatag usada para facilitar a busca do seu site para outros usuarios, quando forem pesquisar nos navegadores, seu site pode ganhar um 
+    ranking maior quando o google foi analisar e ler seu site
+    </p>
+    <em><h4>AUTHOR:</h4></em>
+    <p>essa tag serve para basicamente dizer que fez esse site, e uma assinatura digital
+    </p>
+    <em>
+        <h4>CONTENT:</h4>
+    </em>
+    <p>o content e basicament o conteudo daquela meta tag, então toda vez que você for codar aquelas metas, você precisa definir o conteudo(o que vai mostrar) da meta tag
+    </p>
+    <em>
+        <h4>H1 A H6:</h4>
+    </em>
+    <p>Os H nas tags, dentro do body, o corpo do site, serve basicamente para ditar titulos no site, de h1 para maior titulo, do h6 para o menor,e uma regrinha, todo site
+        só pode ter 1 h1, se tiver mais de 1, da B.O:
+    </p>
+    <br>
+    <br>
+    <img src="/img/h1exemplo.png" height="300" alt="as linhas de codigo que usei para fazer os titulos">
+    <br>
+    <img src="/img/h1.png" height="300" alt="foto dos titulos, do maior para menor">
+    <br>
+    <em>
+        <h4>Os P:</h4>
+    </em>
+    <p>os P, são paragrafos, ele são usado para marca o conteudo do site, simples e facil de usar
+    </p>
+</section>
+    </div>
+    <!--^Meta Tags, Cabeçalho e Parágrafo^-->
+    <div class="formtação">
+<section>
+    <br>
+   
+    <br>
+    <h2>Formatação de Texto</h2>
+    <em><h3>B(o negrito) and stong</h3></em>
+    <p>essas duas tags, deixam as palavras em negrito, mas a diferença entre elas, e que a tag STRONG, da importancia para letra palavra ou frase, deixa ela com grau de importancia maior</p>
+    <em><h3>Hr</h3></em>
+    <p>essa tag cria uma linha divisoria entre a pagina, assim você pode separar o conteudo</p>
+    <em><h3>br</h3></em>
+    <p>essa tag e usada para dar espaçamento, desde imagens,videos ou textos, tipo <br><br><br><br> assim :) <br>mas e recomendado
+    que use pouco essa tag, pois esse espaçamento podemosa aplicar com <abbr title="Estilização De Texto">CSS</abbr></p>
+    <em><h3>I(italico)</h3></em>
+    <p>a tag i, serve para deixar o que esta dentro dela, <i>em Italico</i></p>
+    <em><h3>U</h3></em>
+    <p>essa tag deixa o texto <u><i>SUBLINHADO</i></u>, com essa linha em baixo dela</p>
+    <em><h3>small</h3></em>
+    <p>essa tag serve para deixar o texto pequeno, <small>tudo que estiver dentro dele, ficara pequeno</small>, esse small não e aconselhado ser usado porque podemos
+    fazer essa diminuiçaõ de texto atráves pelo CSS</p>
+    <em><h3>del(texto excluido)</h3></em>
+    <p>esse del, serve para riscar um texto, na qual da a interpretação de <del>deletado</del>, existe a tag strike, que faz a mesma coisa, só que ela futuramente
+    as maquinas não vãp conseguir <strike>ler mais</strike></p>
+    <em><h3>sup and sub</h3></em>
+    <p>essa tag serve para deixar em superior o que está dentro dela, tipo um expoente de matematica, tipo: 2 <sup>10</sup>, eu matei ele <sup>(disse com tom de ironia)</sup>
+    e também temos o sub, que serve para deixar <sub>inferior</sub> o texto</p>
+    <em><h3>mark</h3></em>
+    <p>essa tag serve parar marca algo no texto, a prova e <mark><i><b><u>AMANHÃ</u></b></i></mark>, essa essa opção da para ser usado no CSS</p>
+</section>
+    </div>
+<!--^Formatação de Texto^-->
+    <div class="exercisio">
+<section>
+<br>
+<br>
+<h3>exercisio:</h3>
+<p>agora com seu conhecimento sobre Formataçãode texto, faça um texto, e aplique o conhecimento que você tem agora no texto
+    como se tiversse no wordpress, faça um texto de um tempa que você goste, e modifique ele com o que você sabe.
+</p>
+<h3>IAs, meu interesse genuido pela criação</h3>
+<p>se você me conheçe, sabe que eu tenho um interesse genuido e enorme pelas <abbr title="inteligencia artificial"><u><i>IAs</i></u></abbr>,
+tipo, meu <i>principio</i> em estudar esse tema e trabalhar com isso, obviamente vem pela <u>estabilidade financeira</u><sup>(money)</sup>, mas ao mesmo tempo
+imaginar criar algo que imite, imite mesmo, nem que seja inteligente de fato a inteligencia humana, me fascina, me deixa animado
+e me motivo a me especializar, <i>ultimamente a raça humana</i>, esta tendo a capacidade de <i>"criar"</i> vida, estamos bricando de <i>"Deus"</i>,
+e eu sei que o que eu for fazer, vai mudar o mundo de alguma forma, se uma coisa que eu quero, e deixar um <i>legado nessa terra</i>, e se
+eu deixar algo que vai mudar a humanidade e impusionar a raça humano ao seu apice, que eu faça, e se salvar vidas, que eu faça
+com mais vontade e empenho, <i>salvar vidar, avanço tecnologico, androides, protesses, o que da para se fazer nesse restinho de vida
+que eu tenho, quero usufruir ao maximo</i>
+</p>
+</section>
+    </div>
+<!--^exersicio formtação de texto^-->
+<section>
+    <div class="elementos">
+    <em><h2>Elementos de Citação</h2></em>
+    <em><h3>abbr</h3></em>
+    <p>abbr e uma tag na qual da você pode usar em abreviações, tipo <abbr title="Eu Gosto De Jogar Minecraft">EGDJM</abbr></p>
+    <img  class="imgp"  src="/img/abbr.png" alt="imagem do codigo abbr, mostrando a abreviação">
+    <em><h3>address</h3></em>
+    <p>essa tag basicamente serve para ditar um endereço de um certo local/site, ele pode ser usado para qualquer endereço, não precisa ser endereço fisico
+       <address>rua leonel pereire, 123532, são paulo</address>
+    </p>
+    <em><h3>cite</h3></em>
+    <p></p>
+    <em><h3></h3></em>
+    <em><h3></h3></em>
+    <em><h3></h3></em>
+</div>
+</section>
+    </div>
+<!--^Elementos de Citação^-->
+</html>
